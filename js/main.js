@@ -56,7 +56,7 @@ function sizing () {
 // Start Counter Down Function 
 function counterDown() {
     var now          = new Date(),                         // The Real Date
-        wedding_date = new Date(2025, 6, 15);              // The Wedding Date
+        wedding_date = new Date(2025, 5, 15);              // The Wedding Date
 
     var current_time = now.getTime(),                      // The Real Time
         wedding_time = wedding_date.getTime();             // The Wedding Time
